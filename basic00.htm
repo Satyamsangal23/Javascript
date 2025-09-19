@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- node.js installation -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>basic</title>
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <pre>
+        REPL=read,evualuate,print,loop
+        javascript linter jo batata hai kaha aap galti kar raaha ho   
+    </pre>
+
+    <pre>
+        Let me introduce you to another name for JavaScript, i.e., ECMAScript.
+        JavaScript was created more than 25 years ago, and since then, it has undergone significant evolution. Numerous new features and syntax have been added to JavaScript over the years.
+        JavaScript ES6 is the version of JavaScript that was released in 2015, and many major changes to the Javascript standard came with Javascript ES6.
+        Until 2015, Javascript versions were named by version number like ES1, ES2, ES3, etc., ES6 was the last Javascript version to be named in this way, and before the end of 2015 ES6 was renamed to ES2015 (ECMAScript 2015).
+        ES6 or ES2015 or JAVASCRIPT (ES=ECMASCRIPT)
+    </pre>
+
+    <pre>
+        What is JavaScript?
+        javascript is a dynamic-typed programming language i.e we don't require to specify the datatype 
+        of a variable when you declare it. it is determined by the value that is assigned to it
+        JavaScript is a lightweight, OOP language.
+        It is a scripting language for web pages.
+        It is used to add interactivity and dynamic effects to web pages.
+        “.js” is the extension.
+        Nowadays used in server-side development.
+        JS Frontend Frameworks: React, Angular, Vue.
+        JS Backend Frameworks: Express, Node.
+
+        why use javascript-> this allows to interact with the user and create dynamic, interactive web pages. it is normally used with html and css to create web page that are more interacting and engaging 
+        it can be used to create all sorts of effects , such as drop-down menus,image sliders, and pop-up windows
+    </pre>
+      
+    <pre>
+        // Using the 'n' suffix
+        let bigInt1 = 123456789012345678901234567890n;
+
+        // Using the BigInt function
+        let bigInt2 = BigInt("123456789012345678901234567890");
+        // Addition
+        let sum = bigInt1 + bigInt2;
+        console.log(sum); // 223456789012345678901234567890n
+
+        // Multiplication
+        let product = bigInt1 * bigInt2;
+        console.log(product); // 12345678901234567890123456789000000000000000000000000n
+
+        // This will result in an error:
+        let regularNumber = 10;
+        let result = bigInt1 + regularNumber; // TypeError: Cannot mix BigInt and other types
+    </pre>
+
+    <pre>
+        datatypes-> 
+        Numbers (e.g. 10, 3.14)
+        bigInt
+        undefined
+        symbol
+        Strings (e.g. "hello", 'world')
+        Booleans (e.g. true, false)
+        Arrays (e.g. [1, 2, 3])
+        Objects (e.g. { name: "John", age: 30 })
+    </pre>
+
+    <pre>
+        camelCase=phoneNumber,calculateInterestRate,codeHelpStudent,totalSum (the first letter of each word in a phrase is capitalized except for the first word)
+        PascalCase=PhoneNumber,CalculateInterestRate,CodeHelpStudent,TotalSum (the first letter of each word in a phrase is capitalized)
+        snake_case=phone_number,calculate_interest_rate,code_help_student,total_sum (each word in a phrase is separated by underscore and every character is in lower_case)
+        kebab-case=phone-number,calculate-interest-rate,code-help-student,total-sum (each word in a phrase is separated by hyphen and every character is in lower-case)
+    </pre>
+
+    <pre>
+        Variable Naming Rules ->
+        ariable names contain letter,digits,underscore(_) and dollar sign($) 
+        variable name can't start with digit 
+        variable names are case-sensitive 
+        variable name generally written in camel-case i.e ageOfStudent
+        It is also a good practice to use descriptive and meaningful names for your variables, as this makes your code easier to read and understand.
+        reserved keyword can't be use as variable name
+
+        variable naming convention
+1) numbers=(_,$)
+2) no space 
+3)camelcase=ageOfStudent
+4) meaningful
+5)don't use reserved keyword name
+    </pre>
+
+    <pre>
+        In javascript there are two main two types of data : primitives and objects.
+        primitive are simplest and most basic data types in js like numbers,string,boolean,null(absence of value),undefined(a special value that represents an uninitialized variable)
+        Primitive are immutable , which means that once created they can't be changed :
+          for ex:
+          let x=10;
+          x=20;
+          x changed 10 to 20 but it doesn't change the primitive itself ,but rather creates a new pimitive with value of 20
+         object are more complex data types in js and are used to represent real-world objects or abstract concepts 
+         object are key value pairs,where keys are string and values can be any data type (primitive and objects)
+         objects are mutable , which means they can be changed after they are created
+          ex:
+          let obj={name:"satyam",age:19}; 
+          obj.age=18;
+          this changes the value of object itself, rather than creating a new object. 
+         object=>arrays,function and dates 
+        </pre>
+
+    <pre>
+            operators in js 
+            Arithmetic operators (e.g. +, -, *, /, %)
+            Comparison operators (e.g. >, <, >=, <=, ==, !=)
+            Logical operators (e.g. &&, ||, !)
+            Assignment operators (e.g. =, +=, -=, *=, /=)
+            Conditional (ternary) operator (e.g. ?:) 
+            you can use parentheses 
+        </pre>
+
+        <pre>
+            if else conditionals    
+        </pre>
+
+</body>
+</html>
